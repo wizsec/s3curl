@@ -27,7 +27,8 @@ use constant STAT_MODE => 2;
 use constant STAT_UID => 4;
 
 # begin customizing here
-my @endpoints = ( 's3.amazonaws.com',
+my @endpoints = ( 's3.wiz.biz',
+                  's3.amazonaws.com',
                   's3-us-west-1.amazonaws.com',
                   's3-us-west-2.amazonaws.com',
                   's3-us-gov-west-1.amazonaws.com',

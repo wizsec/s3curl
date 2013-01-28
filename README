@@ -1,3 +1,11 @@
+wiz instructions:
+
+1) sudo perl -MCPAN -e "install Digest::HMAC_SHA1"
+2) s3curl.pl --id admin --post --contentType application/json -- -v -x 10.111.52.3:8080 --data '{"email":"test@wiz.biz", "name":"test user"}' http://s3.wiz.biz/user
+
+
+======
+
 This script is a wrapper around curl, a popular command line http client, that
 will calculate the authentication parameters for the request.
 
