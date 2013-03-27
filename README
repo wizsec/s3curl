@@ -1,7 +1,7 @@
 wiz instructions:
 
 1) sudo perl -MCPAN -e "install Digest::HMAC_SHA1"
-2) s3curl.pl --id admin --post --contentType application/json -- -v -x 10.111.52.3:8080 --data '{"email":"test@wiz.biz", "name":"test user"}' http://s3.wiz.biz/user
+2) ./s3curl.pl --id admin --post --contentType application/json -- -v -x 127.0.0.1:8000 --data '{"email":"portal@wiz.biz","name":"portal session store"}' http://s3.wiz.biz/riak-cs/user
 
 
 ======
